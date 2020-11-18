@@ -23,11 +23,19 @@ This dataset was collected using the YouTube API.
 ## Visualization
 
 Distribution of the dataset according to Year ...
+
 ![](/IMG_CA/Barplot/yearVSNo_of_videos.png)
+
+this dataset is collected in 2017 and 2018,
+2018    0.765368
+2017    0.234632
+
+23% of videos are from 2017
+77% of videos arefrom 2018
 
 ![](/IMG_CA/Barplot/categoryVSno_of_videos.png)
 
-As we can see 
+As we can see in Canada "Entertainment" category has maximum trending videos with approx 13500 videos, followed by "News & Politics" and "People & Blogs", which have average number of videos are trending with approx 4000 videos. And the lowest number of trending video category was "Movies", "Shows", etc with less than 100 videos
 
 ### Category vs Parameters ..
 
