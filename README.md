@@ -20,23 +20,94 @@ This dataset was collected using the YouTube API.
 
 # Analysis of Trending Videos from Canada Region
 
-### Visualization
+## Visualization
 
 Distribution of the dataset according to Year ...
 ![](/IMG_CA/Barplot/yearVSNo_of_videos.png)
 
-Category vs Parameters ..
-
-![](/IMG_CA/Barplot/categoryVScomment_count.png)
+![](/IMG_CA/Barplot/categoryVSno_of_videos.png)
 
 As we can see 
 
+### Category vs Parameters ..
+
+![](/IMG_CA/Barplot/categoryVScomment_count.png)
+
 ![](/IMG_CA/Barplot/categoryVSdislikes.png)
+
 ![](/IMG_CA/Barplot/categoryVSlikes.png)
+
 ![](/IMG_CA/Barplot/categoryVSviews.png)
+
+### category vs parameters .. in the year of 2017
+
 ![](/IMG_CA/Barplot/catVScomment_count_2017.png)
+
 ![](/IMG_CA/Barplot/catVSdislikes_2017.png)
+
 ![](/IMG_CA/Barplot/catVSlikes_2017.png)
+
 ![](/IMG_CA/Barplot/catVSviews_2017.png)
+
+### category vs parameters .. in the year of 2018
+
+![](/IMG_CA/Barplot/catVScomment_count_2018.png)
+
+![](/IMG_CA/Barplot/catVSdislikes_2018.png)
+
+![](/IMG_CA/Barplot/catVSlikes_2018.png)
+
+![](/IMG_CA/Barplot/catVSviews_2018.png)
+
+### 20 Popular Channels in Canada
+
 ![](/IMG_CA/Barplot/popular_channel.png)
-![](/IMG_CA/Barplot/categoryVSno_of_videos.png)
+
+### Correlation between variables ..
+
+![](/IMG_CA/correlation/corr.png)
+
+From the correlation matrix we can see that likes and views are highly correlated with the value of 0.83 and likes and comment_count are highly correlated with the value of 0.84.
+To See wheather the Correlation matrix is correct or not, we can plot Scatter plot for verification ..
+
+![](/IMG_CA/Scatterplot/viewsVSlikes.png)
+
+Let's see the other scatter plots ..
+![](/IMG_CA/Scatterplot/viewsVSdislikes.png)
+
+![](/IMG_CA/Scatterplot/viewsVScomment_count.png)
+
+Let's the relation between views and likes, dislikes, and comment count according to the year ..
+### 2017
+![](/IMG_CA/Scatterplot/viewsVSlikes_2017.png)
+
+![](/IMG_CA/Scatterplot/viewsVSdislikes_2017.png)
+
+![](/IMG_CA/Scatterplot/viewsVScomment_count_2017.png)
+
+### 2018
+![](/IMG_CA/Scatterplot/viewsVSlikes_2018.png)
+
+![](/IMG_CA/Scatterplot/viewsVSdislikes_2018.png)
+
+![](/IMG_CA/Scatterplot/viewsVScomment_count_2018.png)
+
+### Lets see the Distribution of likes, Dislikes, views, and comment_counts
+As the data is too much skewed, hence I applied Log Transformation of the data, so that we can have good insights ..
+
+![](/IMG_CA/LogPDFs/log_likes.png)
+
+![](/IMG_CA/LogPDFs/log_dislikess.png)
+
+![](/IMG_CA/LogPDFs/log_views.png)
+
+![](/IMG_CA/LogPDFs/log_comment_count.png)
+
+### Wordcloud
+Let's see which words are used most in tittle and tags..
+
+### Title
+![](/IMG_CA/WordCLoud/title.png)
+
+### Tags
+![](/IMG_CA/WordCLoud/tags.png)
