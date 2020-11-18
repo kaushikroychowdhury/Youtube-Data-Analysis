@@ -18,7 +18,7 @@ The data also includes a category_id field, which varies between regions. To ret
 ### Acknowledgements
 This dataset was collected using the YouTube API.
 
-# Analysis of Trending Videos from Canada Region
+# Analysis of Trending Videos from "CANADA" Region
 
 ## Visualization
 
@@ -27,15 +27,15 @@ Distribution of the dataset according to Year ...
 ![](/IMG_CA/Barplot/yearVSNo_of_videos.png)
 
 this dataset is collected in 2017 and 2018,
-2018    0.765368
-2017    0.234632
+( 2018 : 0.765368 
+2017 : 0.234632 )
 
 23% of videos are from 2017
 77% of videos arefrom 2018
 
 ![](/IMG_CA/Barplot/categoryVSno_of_videos.png)
 
-As we can see in Canada "Entertainment" category has maximum trending videos with approx 13500 videos, followed by "News & Politics" and "People & Blogs", which have average number of videos are trending with approx 4000 videos. And the lowest number of trending video category was "Movies", "Shows", etc with less than 100 videos
+As we can see in Canada "Entertainment" category has maximum trending videos with approx 13500 videos, followed by "News & Politics" and "People & Blogs", which have average number of videos are trending with approx 4000 videos. And the lowest number of trending video category was "Movies", "Shows", etc with less than ~300 videos
 
 ### Category vs Parameters ..
 
@@ -70,6 +70,9 @@ As we can see in Canada "Entertainment" category has maximum trending videos wit
 ### 20 Popular Channels in Canada
 
 ![](/IMG_CA/Barplot/popular_channel.png)
+
+As we can see the 20 most Trending Channel in which, "SET India", "MSNBC", and "FBE" are in top with approx more than 185 videos.
+And "The View" and "Late Night With Seth Meyers" are in the 19th and 20th position with less than 150 videos.
 
 ### Correlation between variables ..
 
@@ -116,6 +119,9 @@ Let's see which words are used most in tittle and tags..
 
 ### Title
 ![](/IMG_CA/WordCLoud/title.png)
+From the Wordcloud we can see the most used words used in title are "FUll", "Video", "Episode", "Official", "New", "Game", etc.
 
 ### Tags
 ![](/IMG_CA/WordCLoud/tags.png)
+From the Wordcloud we can see the most used words used in tags are "Food", "Video", "song", "Show", "Funny", "New", "Game", etc.
+
