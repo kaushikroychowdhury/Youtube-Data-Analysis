@@ -47,7 +47,7 @@ As we can see in Canada "Entertainment" category has maximum trending videos wit
 
 ![](/IMG_CA/Barplot/categoryVSviews.png)
 
-### category vs parameters .. in the year of 2017
+### Category vs parameters .. in the year of 2017
 
 ![](/IMG_CA/Barplot/catVScomment_count_2017.png)
 
@@ -57,7 +57,7 @@ As we can see in Canada "Entertainment" category has maximum trending videos wit
 
 ![](/IMG_CA/Barplot/catVSviews_2017.png)
 
-### category vs parameters .. in the year of 2018
+### Category vs parameters .. in the year of 2018
 
 ![](/IMG_CA/Barplot/catVScomment_count_2018.png)
 
@@ -66,6 +66,12 @@ As we can see in Canada "Entertainment" category has maximum trending videos wit
 ![](/IMG_CA/Barplot/catVSlikes_2018.png)
 
 ![](/IMG_CA/Barplot/catVSviews_2018.png)
+
+### Time Parameters
+
+![](hour_CA.png)
+
+![](day_CA.png)
 
 ### 20 Popular Channels in Canada
 
@@ -124,4 +130,3 @@ From the Wordcloud we can see the most used words used in title are "FUll", "Vid
 ### Tags
 ![](/IMG_CA/WordCLoud/tags.png)
 From the Wordcloud we can see the most used words used in tags are "Food", "Video", "song", "Show", "Funny", "New", "Game", etc.
-
