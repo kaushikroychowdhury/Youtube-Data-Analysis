@@ -197,10 +197,6 @@ To See wheather the Correlation matrix is correct or not, we can plot Scatter pl
 
 ![](/IMG_DE/Scatterplot/viewsVSlikes.png)
 
-Let's see the other scatter plots ..
-![](/IMG_CA/Scatterplot/viewsVSdislikes.png)
-
-![](/IMG_CA/Scatterplot/viewsVScomment_count.png)
 
 Let's the relation between views and likes, dislikes, and comment count according to the year ..
 ### 2017
