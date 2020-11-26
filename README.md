@@ -181,7 +181,7 @@ As we can see in Denmark "Entertainment" category has maximum trending videos wi
 
 ![](/IMG_DE/Barplot/day.png)
 
-### 20 Popular Channels in Canada
+### 20 Popular Channels in Denmark
 
 ![](/IMG_DE/Barplot/1.png)
 
@@ -229,4 +229,90 @@ From the Wordcloud we can see the most used words used in title are "Video", "Un
 
 ### Tags
 ![](/IMG_DE/wordcloud/3.png)
+From the Wordcloud we can see the most used words used in tags are "izle", "Video", "die", "Show", "bolum", "New", "funny", etc.
+
+
+
+####################################################################################################
+####################################################################################################
+
+# Analysis of Trending Videos from "INDIA" Region
+
+## Visualization
+
+Distribution of the dataset according to Year ...
+
+![](/IMG_IN/Barplot/18.png)
+
+this dataset is collected in 2017 and 2018,
+( 2018 : 0.765368 
+2017 : 0.234632 )
+
+23% of videos are from 2017
+77% of videos arefrom 2018
+
+![](/IMG_IN/Barplot/4.png)
+
+As we can see in Denmark "Entertainment" category has maximum trending videos with approx 15000 videos, followed by "News & Politics" and "People & Blogs", which have average number of videos are trending with approx 6000 & 3000 videos respectively. And the lowest number of trending video category was "Movies", "Shows", etc with less than ~300 videos
+
+
+### Category vs parameters .. in the year of 2017
+
+![](/IMG_IN/Barplot/16.png)
+
+
+### Category vs parameters .. in the year of 2018
+
+![](/IMG_IN/Barplot/15.png)
+
+
+### Time Parameters
+
+![](/IMG_IN/Barplot/1.png)
+
+![](/IMG_IN/Barplot/2.png)
+
+### 20 Popular Channels in India
+
+![](/IMG_IN/Barplot/3.png)
+
+As we can see the 20 most Trending Channel in which, "Galileo" is in top with 200 videos.
+And "beni Affet" and "World Wide Wohnzimmer" are in the 19th and 20th position with less than 125 videos.
+
+### Correlation between variables ..
+
+![](/IMG_IN/correlation/7.png)
+
+From the correlation matrix we can see that likes and comment_count are highly correlated with the value of 0.85 and log_likes and log_dislikes are highly correlated with the value of 0.86.
+
+Let's the relation between views and likes, dislikes, and comment count according to the year ..
+### 2017
+![](/IMG_IN/scatterplot/12.png)
+
+![](/IMG_IN/scatterplot/13.png)
+
+![](/IMG_IN/scatterplot/14.png)
+
+### 2018
+![](/IMG_IN/scatterplot/9.png)
+
+![](/IMG_IN/scatterplot/10.png)
+
+![](/IMG_IN/scatterplot/11.png)
+
+### Lets see the Distribution of likes, Dislikes, views, and comment_counts
+As the data is too much skewed, hence I applied Log Transformation of the data, so that we can have good insights ..
+
+![](/IMG_IN/LogPDFs/8.png)
+
+
+### Wordcloud
+Let's see which words are used most in tittle and tags..
+
+### Title
+![](/IMG_IN/wordcloud/6.png)
+From the Wordcloud we can see the most used words used in title are "Video", "Und", "Die", "Bolum", "mit", etc.
+
+### Tags
+![](/IMG_IN/wordcloud/19.png)
 From the Wordcloud we can see the most used words used in tags are "izle", "Video", "die", "Show", "bolum", "New", "funny", etc.
