@@ -132,8 +132,8 @@ From the Wordcloud we can see the most used words used in title are "FUll", "Vid
 From the Wordcloud we can see the most used words used in tags are "Food", "Video", "song", "Show", "Funny", "New", "Game", etc.
 
 
-############################################################################################################################################################################
-############################################################################################################################################################################
+####################################################################################################
+####################################################################################################
 
 # Analysis of Trending Videos from "DENMARK" Region
 
@@ -185,18 +185,14 @@ As we can see in Denmark "Entertainment" category has maximum trending videos wi
 
 ![](/IMG_DE/Barplot/1.png)
 
-As we can see the 20 most Trending Channel in which, "SET India", "MSNBC", and "FBE" are in top with approx more than 185 videos.
-And "The View" and "Late Night With Seth Meyers" are in the 19th and 20th position with less than 150 videos.
+As we can see the 20 most Trending Channel in which, "Galileo" is in top with 200 videos.
+And "beni Affet" and "World Wide Wohnzimmer" are in the 19th and 20th position with less than 125 videos.
 
 ### Correlation between variables ..
 
 ![](/IMG_DE/correlation/6.png)
 
-From the correlation matrix we can see that likes and views are highly correlated with the value of 0.83 and likes and comment_count are highly correlated with the value of 0.84.
-To See wheather the Correlation matrix is correct or not, we can plot Scatter plot for verification ..
-
-![](/IMG_DE/Scatterplot/viewsVSlikes.png)
-
+From the correlation matrix we can see that likes and comment_count are highly correlated with the value of 0.85 and log_likes and log_dislikes are highly correlated with the value of 0.86.
 
 Let's the relation between views and likes, dislikes, and comment count according to the year ..
 ### 2017
@@ -229,8 +225,8 @@ Let's see which words are used most in tittle and tags..
 
 ### Title
 ![](/IMG_DE/wordcloud/4.png)
-From the Wordcloud we can see the most used words used in title are "FUll", "Video", "Episode", "Official", "New", "Game", etc.
+From the Wordcloud we can see the most used words used in title are "Video", "Und", "Die", "Bolum", "mit", etc.
 
 ### Tags
 ![](/IMG_DE/wordcloud/3.png)
-From the Wordcloud we can see the most used words used in tags are "Food", "Video", "song", "Show", "Funny", "New", "Game", etc.
+From the Wordcloud we can see the most used words used in tags are "izle", "Video", "die", "Show", "bolum", "New", "funny", etc.
