@@ -253,7 +253,7 @@ this dataset is collected in 2017 and 2018,
 
 ![](/IMG_IN/Barplot/4.png)
 
-As we can see in Denmark "Entertainment" category has maximum trending videos with approx 15000 videos, followed by "News & Politics" and "People & Blogs", which have average number of videos are trending with approx 6000 & 3000 videos respectively. And the lowest number of trending video category was "Movies", "Shows", etc with less than ~300 videos
+As we can see in India "Entertainment" category has maximum trending videos with approx 16000 videos, followed by "News & Politics" and "Music", which have average number of videos are trending with approx 5000 & 3900 videos respectively. And the lowest number of trending video category was "Movies", "Autos & Vehicles", etc.
 
 
 ### Category vs parameters .. in the year of 2017
@@ -276,14 +276,14 @@ As we can see in Denmark "Entertainment" category has maximum trending videos wi
 
 ![](/IMG_IN/Barplot/3.png)
 
-As we can see the 20 most Trending Channel in which, "Galileo" is in top with 200 videos.
-And "beni Affet" and "World Wide Wohnzimmer" are in the 19th and 20th position with less than 125 videos.
+As we can see the 20 most Trending Channel in which, "VikatanTV" is in top with 280 videos.
+And "SunTV Tamil" and "zeetvtelegu" are in the 19th and 20th position with less than 200 videos.
 
 ### Correlation between variables ..
 
 ![](/IMG_IN/correlation/7.png)
 
-From the correlation matrix we can see that likes and comment_count are highly correlated with the value of 0.85 and log_likes and log_dislikes are highly correlated with the value of 0.86.
+From the correlation matrix we can see that likes and views are highly correlated with the value of 0.85 and log_likes and log_dislikes are highly correlated with the value of 0.88.
 
 Let's the relation between views and likes, dislikes, and comment count according to the year ..
 ### 2017
@@ -311,8 +311,8 @@ Let's see which words are used most in tittle and tags..
 
 ### Title
 ![](/IMG_IN/wordcloud/6.png)
-From the Wordcloud we can see the most used words used in title are "Video", "Und", "Die", "Bolum", "mit", etc.
+From the Wordcloud we can see the most used words used in title are "Video", "Full", "Song", "Episode", "New", etc.
 
 ### Tags
 ![](/IMG_IN/wordcloud/19.png)
-From the Wordcloud we can see the most used words used in tags are "izle", "Video", "die", "Show", "bolum", "New", "funny", etc.
+From the Wordcloud we can see the most used words used in tags are "new", "Video", "Song", "Show", "latest", "movie", "comedy", etc.
